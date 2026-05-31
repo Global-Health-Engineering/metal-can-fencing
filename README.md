@@ -33,14 +33,14 @@ A part list with everything necessary for the construction of the prototype is i
 |   └── parameter_testing.xslx  # Excel sheets of can dimensions, tested wire types and optimized parameters
 │
 ├── media/
-│   ├── photo/  # Images of the prototype and different wire types tested
+│   └── photo/  # Images of the prototype and different wire types tested
 │
 ├── hardware/            #.stl files of the 3D printed parts of the prototype
+|   ├── non_print_parts/      # Parts to be bought/manufactured not printed 
 |   ├── opener/
 |   ├── slicer/
-|   ├── twister/
 |   ├── transmission/
-|   └── non_print_parts/      # Parts to be bought/manufactured not printed  
+|   └── twister/ 
 │
 └── README.md
 ```
