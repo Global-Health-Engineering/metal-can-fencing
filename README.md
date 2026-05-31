@@ -1,78 +1,50 @@
 # metal-can-fencing
 
-# ALuminium Can Wire Prototype
+# Aluminium Can Wire Prototype
 **Semester Project — Global Health Engineering, ETH Zürich**
 
-The repo contains the project files of a prototype machine for turning waste aluminium cans into wire intended to be used for fencing. A detailed description of the project background can be found in the proposal document. The CAD model is available both as .stl files and as a public Onshape document. A video demonstrating the prototype is available on YouTube.
+The repo contains the project files of a prototype machine for turning waste aluminium cans into wire intended to be used for fencing. A detailed description of the project background can be found in the proposal document. The CAD model is available both as .stl files and as a public Onshape document. All the resources needed to build the prototype are included in the part list. A video demonstrating the prototype is available on YouTube. 
 
 ---
 
+## CAD Model
+
+The CAD Model of tghe protoype is available as a public document here:
+**[Main Prototype CAD]([https://cad.onshape.com/documents/85e6de6017a37f12d6a3c2e9/w/624e25fabe076b6094cd570a/e/ef13d64fd9b0a9b642ac96d9?renderMode=0&uiState=6a1bec5a71857acb131fa152])**
+
+---
 ## Video Demonstration
 
-A full step-by-step video guide on how to build the pasteuriser is available on YouTube:
-
-👉 **[Watch the build video](https://youtu.be/TXo4oEJUX8o?si=pCioiJgCkVSB-7HL)**
+**[Fencing Wire from Waste Cans: Prototype Demonstration]([https://youtu.be/PfGfU24g3dw])**
 
 ---
 
 ## Repository Structure
 
 ```
-├── data/
-│   ├── raw/              # Raw sensor readings from all 8 experiments (CSV)
-│   └── derived/          # Cleaned and processed data (Excel)
-│
+
 ├── docs/
-│   ├── report/           # Final semester report
-│   ├── build/            # Step-by-step build instructions
-│   └── parts_list.xlsx   # Full parts list + simplified build version
+│   ├── zanggerf_proposal.pdf   # Research proposal with background information on project
+│   ├── part_list.xlsx         # List of all parts needed for the construction
+|   └── parameter_testing.xslx  # Excel sheets of can dimensions, tested wire types and optimized parameters
 │
-├── src/
-│   ├── arduino_code.ino  # Arduino monitoring code
-│   └── serial_logger.py  # Python script for serial data logging
+├── media/
+│   ├── photo/  # Images of the prototype and different wire types tested
+│   └── video/  # Raw videos of the prototype in action
 │
-├── hardware/
-│   └── wiring_diagram.pdf  # Arduino wiring schematic
+├── hardware/            #.stl files of the 3D printed parts of the prototype
+|   ├── opener/
+|   ├── slicer/
+|   ├── twister/
+|   └── gearbox/              
 │
 └── README.md
 ```
 
 ---
 
-## Data
-
-The `data/raw/` folder contains sensor data collected across 8 pasteurisation experiments carried out in April 2026. Each experiment folder includes temperature readings from RuuviTag sensors and manual measurements.
-
-The `data/derived/` folder contains the cleaned and consolidated dataset used for analysis.
-
-> For any additional data or materials not included in this repository, feel free to reach out (see contact below).
-
----
-
-## Hardware
-
-The pasteuriser uses a gas burner system monitored via an Arduino with temperature sensors. The `hardware/` folder contains the wiring diagram and the `docs/build/` folder contains the full build instructions.
-
-A simplified parts list for a basic build is included in `docs/parts_list.xlsx`.
-
----
-
-## Software
-
-- **Arduino**: The `src/arduino_code.ino` file runs on the Arduino and monitors temperature during pasteurisation.
-- **Python**: The `src/serial_logger.py` script logs serial output from the Arduino to CSV files.
-
----
-
 ## Contact
 
-**Carlos Martín Cazorla**
-Semester project student, Global Health Engineering group, ETH Zürich
-
-For questions or to request additional project files, please open an issue in this repository or contact through ETH Zürich.
+Feel free to contact Fabian Zangger (fabian.zangger@hotmail.com) if you have questions regarding the project.
 
 ---
-
-## License
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md).
