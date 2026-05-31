@@ -40,7 +40,8 @@ A part list with everything necessary for the construction of the prototype is i
 |   ├── opener/
 |   ├── slicer/
 |   ├── twister/
-|   └── gearbox/              
+|   ├── transmission/
+|   └── non_print_parts/      # Parts to be bought/manufactured not printed  
 │
 └── README.md
 ```
