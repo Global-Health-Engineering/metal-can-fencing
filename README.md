@@ -1,21 +1,25 @@
 # metal-can-fencing
 
 # Aluminium Can Wire Prototype
-**Semester Project — Global Health Engineering, ETH Zürich**
+**Semester Project at Global Health Engineering, ETH Zürich**
 
-The repo contains the project files of a prototype machine for turning waste aluminium cans into wire intended to be used for fencing. A detailed description of the project background can be found in the proposal document. The CAD model is available both as .stl files and as a public Onshape document. All the resources needed to build the prototype are included in the part list. A video demonstrating the prototype is available on YouTube. 
+The repo contains the project files of a prototype machine for turning waste aluminium cans into wire intended to be used for fencing. A detailed description of the project background can be found in the proposal document. 
 
 ---
 
 ## CAD Model
 
-The CAD Model of tghe protoype is available as a public document here:
-**[Main Prototype CAD]([https://cad.onshape.com/documents/85e6de6017a37f12d6a3c2e9/w/624e25fabe076b6094cd570a/e/ef13d64fd9b0a9b642ac96d9?renderMode=0&uiState=6a1bec5a71857acb131fa152])**
+The CAD Model of the protoype is available as a public document here:
+**[Main Prototype CAD](https://cad.onshape.com/documents/85e6de6017a37f12d6a3c2e9/w/624e25fabe076b6094cd570a/e/ef13d64fd9b0a9b642ac96d9?renderMode=0&uiState=6a1bec5a71857acb131fa152)**
+
+The .stl files are also available for download in the hardware folder of this repository.
+A part list with everything necessary for the construction of the prototype is in the docs folder.
+
 
 ---
 ## Video Demonstration
 
-**[Fencing Wire from Waste Cans: Prototype Demonstration]([https://youtu.be/PfGfU24g3dw])**
+**[Fencing Wire from Waste Cans: Prototype Demonstration](https://youtu.be/PfGfU24g3dw)**
 
 ---
 
