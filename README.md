@@ -34,7 +34,6 @@ A part list with everything necessary for the construction of the prototype is i
 │
 ├── media/
 │   ├── photo/  # Images of the prototype and different wire types tested
-│   └── video/  # Raw videos of the prototype in action
 │
 ├── hardware/            #.stl files of the 3D printed parts of the prototype
 |   ├── opener/
